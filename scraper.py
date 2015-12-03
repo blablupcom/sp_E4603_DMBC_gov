@@ -86,7 +86,7 @@ def convert_mth_strings ( mth_string ):
 
 entity_id = "E4603_DMBC_gov"
 url = 'http://www.dudley.gov.uk/resident/your-council/local-transparency/council-expenditure-over-500'
-proxy = urllib2.ProxyHandler({'http': '178.62.75.42:3128'})
+proxy = urllib2.ProxyHandler({'http': '128.199.235.21:3128'})
 opener = urllib2.build_opener(proxy)
 urllib2.install_opener(opener)
 errors = 0
