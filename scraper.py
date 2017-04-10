@@ -86,7 +86,6 @@ def convert_mth_strings ( mth_string ):
 
 entity_id = "E4603_DMBC_gov"
 url = 'http://www.dudley.gov.uk/resident/your-council/local-transparency/council-expenditure-over-500'
-##urllib2.install_opener(opener)
 errors = 0
 data = []
 
